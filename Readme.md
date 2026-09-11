@@ -1,6 +1,6 @@
 # Subnautica-BZVR-Fix
 
-Subnautica: Below Zero için VR uyumluluğunu düzeltmeye yönelik bir yama/mod aracı. Oyunun build ayarlarını değiştirerek VR desteğini düzeltir.
+Subnautica: Below Zero için VR Location Not Found Hatasını Çözer.
 
 ## Başlarken
 
