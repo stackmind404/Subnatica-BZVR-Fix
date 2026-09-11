@@ -1,82 +1,82 @@
 # Subnautica-BZVR-Fix
 
-Subnautica: Below Zero için VR Location Not Found Hatasını Çözer.
+Fixes the VR Location Not Found error for Subnautica: Below Zero.
 
-## Başlarken
+## Getting Started
 
-Bu talimatlar, projeyi kendi bilgisayarınızda çalıştırmanız veya geliştirme yapmanız için gereken adımları içerir.
+These instructions cover the steps needed to run or develop this project on your own computer.
 
-### Gereksinimler
+### Requirements
 
-- Subnautica: Below Zero (Steam sürümü)
-- Submersed VR modunun son sürümü
+- Subnautica: Below Zero (Steam version)
+- Latest version of the Submersed VR mod
 
-### Kurulum
+### Installation
 
-1. Bu reponun son sürümünü [Releases](https://github.com/stackmind404/Subnautica-BZVR-Fix/releases) sayfasından indirin.
-2. `.zip` dosyasını istediğiniz bir klasöre çıkartın.
-3. `VRBuildSettingsPatcher.exe` dosyasını çalıştırın.
-4. Aşağıdaki gibi bir ekran görüyorsanız işlem başarıyla tamamlanmış demektir:
+1. Download the latest version of this repo from the [Releases](https://github.com/stackmind404/Subnautica-BZVR-Fix/releases) page.
+2. Extract the `.zip` file to a folder of your choice.
+3. Run `VRBuildSettingsPatcher.exe`.
+4. If you see a screen like the one below, the process has completed successfully:
 
-   <img width="1122" height="622" alt="VRBuildSettingsPatcher başarılı ekranı" src="https://github.com/user-attachments/assets/2b0ae412-45b1-4989-8966-0f3231b12328" />
+   <img width="1122" height="622" alt="VRBuildSettingsPatcher success screen" src="https://github.com/user-attachments/assets/2b0ae412-45b1-4989-8966-0f3231b12328" />
 
-5. `Subnatica-bz-launcher-maker.py` dosyasına çift tıklayın. Aşağıdaki ekran açılacaktır:
+5. Double-click the `Subnatica-bz-launcher-maker.py` file. The screen below will open:
 
-   <img width="701" height="791" alt="Subnautica BZ VR Fix önizleme" src="https://github.com/user-attachments/assets/c64ac108-4569-41f9-9a40-52f3cd62dd9c" />
+   <img width="701" height="791" alt="Subnautica BZ VR Fix preview" src="https://github.com/user-attachments/assets/c64ac108-4569-41f9-9a40-52f3cd62dd9c" />
 
-6. Çıkan ekranda **Browse** deyip `C:\Program Files (x86)\Steam\steamapps\common` yolundan `SubnauticaZero` adlı klasörü seçin.
-7. Ardından oyunun `.exe` yolu otomatik olarak bulunacaktır. **Create Launcher** butonuna tıklayın:
+6. In the window that appears, click **Browse** and select the folder named `SubnauticaZero` from the path `C:\Program Files (x86)\Steam\steamapps\common`.
+7. The game's `.exe` path will then be found automatically. Click the **Create Launcher** button:
 
    <img width="650" height="72" alt="image" src="https://github.com/user-attachments/assets/6192eea8-f1df-4115-ab7d-2182596adda4" />
 
-8. Buradaki yazının tamamını kopyalayın. Aşağıdaki gibi olması gerekir:
+8. Copy the entire text shown here. It should look like this:
 
    ```
    "C:/Program Files (x86)/Steam/steamapps/common/SubnauticaZero/SubnauticaZeroLauncher.exe" %command%
    ```
 
-9. Bu satırı Steam'de oyunun **Başlatma Seçenekleri**'ne (Launch Options) ekleyin.
+9. Add this line to the game's **Launch Options** in Steam.
 
    <img width="890" height="170" alt="image" src="https://github.com/user-attachments/assets/a958037b-d57c-4fbb-bff5-693b50147aee" />
 
-10. Son adım için 2 dosyaya ihtiyacınız var: `openvr_api.dll` ve `OVRPlugin.dll`.
-    - `openvr_api.dll` dosyasını, SteamVR kuruluysa (buraya kadar geldiyseniz kurulu olmalı) şu yoldan bulabilirsiniz:
+10. For the final step, you'll need 2 files: `openvr_api.dll` and `OVRPlugin.dll`.
+    - You can find `openvr_api.dll` at the following path, provided SteamVR is installed (it should be, if you've made it this far):
       `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\bin\win64`
-    - `OVRPlugin.dll` dosyasını başka bir kaynaktan temin edin.
-    - Her iki dosyayı da şu klasöre yapıştırın:
+    - Obtain `OVRPlugin.dll` from another source.
+    - Paste both files into the following folder:
       `C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero\SubnauticaZero_Data\Plugins\x86_64`
-11. VR başlığınızı takıp SteamVR'ı açın, oyunu başlatın ve arkanıza yaslanın.
+11. Put on your VR headset, open SteamVR, launch the game, and sit back.
 
-## Testlerin Çalıştırılması
+## Running Tests
 
-*(Otomatik testiniz yoksa bu bölümü README'den tamamen kaldırabilirsiniz)*
+*(If you don't have automated tests, you can remove this section from the README entirely)*
 
-## Dağıtım (Deployment)
+## Deployment
 
-Yeni bir sürüm yayınlarken:
+When releasing a new version:
 
-1. Projeyi Release modunda derleyin.
-2. `bin/Release/net472/` klasöründeki gerekli dosyaları (`.exe`, `.exe.config`, `AssetsTools.NET.dll`, `classdata.tpk`) zip'leyin.
-3. GitHub'da yeni bir Release oluşturup zip'i yükleyin.
+1. Build the project in Release mode.
+2. Zip the required files (`.exe`, `.exe.config`, `AssetsTools.NET.dll`, `classdata.tpk`) from the `bin/Release/net472/` folder.
+3. Create a new Release on GitHub and upload the zip file.
 
-## Kullanılan Teknolojiler / Kütüphaneler
+## Technologies / Libraries Used
 
-- [AssetsTools.NET](https://github.com/nesrak1/AssetsTools.NET) — Unity asset dosyalarını okuma/düzenleme (MIT Lisansı)
-- [UABEA](https://github.com/nesrak1/UABEA) — Referans alınan araç (MIT Lisansı)
+- [AssetsTools.NET](https://github.com/nesrak1/AssetsTools.NET) — For reading/editing Unity asset files (MIT License)
+- [UABEA](https://github.com/nesrak1/UABEA) — Reference tool (MIT License)
 
-## Katkıda Bulunma
+## Contributing
 
-Katkıda bulunmak isterseniz lütfen bir Issue açın veya Pull Request gönderin.
+If you'd like to contribute, please open an Issue or submit a Pull Request.
 
-## Sürümleme
+## Versioning
 
-Bu proje [SemVer](https://semver.org/) sürümleme sistemini kullanır. Mevcut sürümler için repodaki [Releases](releases-linki) sayfasına bakabilirsiniz.
+This project uses the [SemVer](https://semver.org/) versioning system. You can check the repo's [Releases](releases-linki) page for available versions.
 
-## Lisans
+## License
 
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
+This project is licensed under the [MIT License](LICENSE).
 
-## Teşekkürler
+## Acknowledgements
 
-- AssetsTools.NET ve UABEA projelerine, kullandığım kütüphaneler için teşekkürler.
-- Subnautica: Below Zero VR modding topluluğuna.
+- Thanks to the AssetsTools.NET and UABEA projects for the libraries I used.
+- Thanks to the Subnautica: Below Zero VR modding community.
