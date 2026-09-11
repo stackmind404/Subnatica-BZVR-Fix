@@ -2,7 +2,6 @@
 
 Subnautica: Below Zero için VR uyumluluğunu düzeltmeye yönelik bir yama/mod aracı. Oyunun build ayarlarını değiştirerek VR desteğini düzeltir.
 
-<img width="701" height="791" alt="Subnautica BZ VR Fix önizleme" src="https://github.com/user-attachments/assets/c64ac108-4569-41f9-9a40-52f3cd62dd9c" />
 
 ## Başlarken
 
@@ -24,7 +23,7 @@ Bu talimatlar, projeyi kendi bilgisayarınızda çalıştırmanız veya gelişti
 
 5. `Subnatica-bz-launcher-maker.py` dosyasına çift tıklayın. Aşağıdaki ekran açılacaktır:
 
-   <img width="650" height="72" alt="Launcher maker ekranı" src="https://github.com/user-attachments/assets/1c2fea7e-6515-4614-ab75-bea0a272a751" />
+   <img width="701" height="791" alt="Subnautica BZ VR Fix önizleme" src="https://github.com/user-attachments/assets/c64ac108-4569-41f9-9a40-52f3cd62dd9c" />
 
 6. Çıkan ekranda **Browse** deyip `C:\Program Files (x86)\Steam\steamapps\common` yolundan `SubnauticaZero` adlı klasörü seçin.
 7. Ardından oyunun `.exe` yolu otomatik olarak bulunacaktır. **Create Launcher** butonuna tıklayın:
