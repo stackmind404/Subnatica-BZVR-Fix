@@ -1,0 +1,14 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Debug symbols
+*.pdb
+
+# Files that don't belong in the repo (get these from their own source)
+classdata.tpk
