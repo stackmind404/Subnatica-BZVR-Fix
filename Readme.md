@@ -1,87 +1,58 @@
-# Project Titls
+# Subnatica-BZVR-Fix
 
-One Paragraph of project description goes here
+Subnautica Below Zero için VR uyumluluğunu düzeltmeye yönelik bir yama/mod aracı. Oyunun build ayarlarını değiştirerek VR desteğini düzeltir.
 
-## Getting Started
+## Başlarken
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to **deploy**(Bold Example) the project on a live system.
+Bu talimatlar, projeyi kendi bilgisayarınızda çalıştırmanız veya geliştirme yapmanız için gereken adımları içerir.
 
-### Prerequisites
+### Gereksinimler
 
-What things you need to install the software and how to install them
+- .NET Framework 4.7.2
+- Visual Studio 2019 veya üzeri
+- Subnautica Below Zero (Steam/Epic sürümü)
+- [Launcher Adı](launcher-linki) — oyunu VR modunda başlatmak için gerekli
 
-```
-Give examples
-```
+### Kurulum
 
-### Installing
+1. Bu repoyu klonlayın veya son sürümü [Releases](releases-linki) sayfasından indirin
+2. `.zip` dosyasını istediğiniz bir klasöre çıkartın
+3. `VRBuildSettingsPatcher.exe` dosyasını çalıştırın
+4. Yama işlemi tamamlandıktan sonra oyunu [Launcher Adı] üzerinden başlatın
 
-A step by step series of examples that tell you how to get a development env running
+## Testlerin Çalıştırılması
 
-Say what the step will be
+*(Otomatik testiniz yoksa bu bölümü README'den tamamen kaldırabilirsiniz)*
 
-```
-Give the example
-```
+## Dağıtım (Deployment)
 
-And repeat
+Yeni bir sürüm yayınlarken:
+1. Projeyi Release modunda derleyin
+2. `bin/Release/net472/` klasöründeki gerekli dosyaları (`.exe`, `.exe.config`, `AssetsTools.NET.dll`, `classdata.tpk`) zip'leyin
+3. GitHub'da yeni bir Release oluşturup zip'i yükleyin
 
-```
-until finished
-```
+## Kullanılan Teknolojiler / Kütüphaneler
 
-End with an example of getting some data out of the system or using it for a little demo
+- [AssetsTools.NET](https://github.com/nesrak1/AssetsTools.NET) — Unity asset dosyalarını okuma/düzenleme (MIT Lisansı)
+- [UABEA](https://github.com/nesrak1/UABEA) — Referans alınan araç (MIT Lisansı)
 
-## Running the tests
+## Katkıda Bulunma
 
-Explain how to run the automated tests for this system
+Katkıda bulunmak isterseniz lütfen bir Issue açın veya Pull Request gönderin.
 
-### Break down into end to end tests
+## Sürümleme
 
-Explain what these tests test and why
+Bu proje [SemVer](https://semver.org/) sürümleme sistemini kullanır. Mevcut sürümler için repodaki [Releases](releases-linki) sayfasına bakabilirsiniz.
 
-```
-Give an example
-```
+## Geliştirici
 
-### And coding style tests
+- **[Adın]** — *Proje sahibi*
 
-Explain what these tests test and why
+## Lisans
 
-```
-Give an example
-```
+Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
 
-## Deployment
+## Teşekkürler
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+- AssetsTools.NET ve UABEA projelerine, kullandığım kütüphaneler için teşekkürler
+- Subnautica Below Zero VR modding topluluğuna
