@@ -13,7 +13,7 @@ Bu talimatlar, projeyi kendi bilgisayarınızda çalıştırmanız veya gelişti
 
 ### Kurulum
 
-1. Bu reponun son sürümünü [Releases](releases-linki) sayfasından indirin.
+1. Bu reponun son sürümünü [Releases](https://github.com/stackmind404/Subnautica-BZVR-Fix/releases) sayfasından indirin.
 2. `.zip` dosyasını istediğiniz bir klasöre çıkartın.
 3. `VRBuildSettingsPatcher.exe` dosyasını çalıştırın.
 4. Aşağıdaki gibi bir ekran görüyorsanız işlem başarıyla tamamlanmış demektir:
