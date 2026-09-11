@@ -47,9 +47,6 @@ These instructions cover the steps needed to run or develop this project on your
       `C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero\SubnauticaZero_Data\Plugins\x86_64`
 11. Put on your VR headset, open SteamVR, launch the game, and sit back.
 
-## Running Tests
-
-*(If you don't have automated tests, you can remove this section from the README entirely)*
 
 ## Deployment
 
