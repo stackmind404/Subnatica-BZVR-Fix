@@ -28,7 +28,8 @@ Bu talimatlar, projeyi kendi bilgisayarınızda çalıştırmanız veya gelişti
 6. Çıkan ekranda **Browse** deyip `C:\Program Files (x86)\Steam\steamapps\common` yolundan `SubnauticaZero` adlı klasörü seçin.
 7. Ardından oyunun `.exe` yolu otomatik olarak bulunacaktır. **Create Launcher** butonuna tıklayın:
 
-   <img width="890" height="170" alt="Create Launcher çıktısı" src="https://github.com/user-attachments/assets/4e57d2ad-d4ee-4992-91e8-3b3454c69132" />
+   <img width="650" height="72" alt="image" src="https://github.com/user-attachments/assets/6192eea8-f1df-4115-ab7d-2182596adda4" />
+
 
 8. Buradaki yazının tamamını kopyalayın. Aşağıdaki gibi olması gerekir:
 
@@ -37,13 +38,16 @@ Bu talimatlar, projeyi kendi bilgisayarınızda çalıştırmanız veya gelişti
    ```
 
 9. Bu satırı Steam'de oyunun **Başlatma Seçenekleri**'ne (Launch Options) ekleyin.
-10. Son adım için 2 dosyaya ihtiyacınız var: `openvr_api.dll` ve `OVRPlugin.dll`.
+
+   <img width="890" height="170" alt="image" src="https://github.com/user-attachments/assets/a958037b-d57c-4fbb-bff5-693b50147aee" />
+
+11. Son adım için 2 dosyaya ihtiyacınız var: `openvr_api.dll` ve `OVRPlugin.dll`.
     - `openvr_api.dll` dosyasını, SteamVR kuruluysa (buraya kadar geldiyseniz kurulu olmalı) şu yoldan bulabilirsiniz:
       `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\bin\win64`
     - `OVRPlugin.dll` dosyasını başka bir kaynaktan temin edin.
     - Her iki dosyayı da şu klasöre yapıştırın:
       `C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero\SubnauticaZero_Data\Plugins\x86_64`
-11. VR başlığınızı takıp SteamVR'ı açın, oyunu başlatın ve arkanıza yaslanın.
+12. VR başlığınızı takıp SteamVR'ı açın, oyunu başlatın ve arkanıza yaslanın.
 
 ## Testlerin Çalıştırılması
 
