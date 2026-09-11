@@ -2,7 +2,6 @@
 
 Subnautica: Below Zero için VR uyumluluğunu düzeltmeye yönelik bir yama/mod aracı. Oyunun build ayarlarını değiştirerek VR desteğini düzeltir.
 
-
 ## Başlarken
 
 Bu talimatlar, projeyi kendi bilgisayarınızda çalıştırmanız veya geliştirme yapmanız için gereken adımları içerir.
@@ -30,7 +29,6 @@ Bu talimatlar, projeyi kendi bilgisayarınızda çalıştırmanız veya gelişti
 
    <img width="650" height="72" alt="image" src="https://github.com/user-attachments/assets/6192eea8-f1df-4115-ab7d-2182596adda4" />
 
-
 8. Buradaki yazının tamamını kopyalayın. Aşağıdaki gibi olması gerekir:
 
    ```
@@ -41,13 +39,13 @@ Bu talimatlar, projeyi kendi bilgisayarınızda çalıştırmanız veya gelişti
 
    <img width="890" height="170" alt="image" src="https://github.com/user-attachments/assets/a958037b-d57c-4fbb-bff5-693b50147aee" />
 
-11. Son adım için 2 dosyaya ihtiyacınız var: `openvr_api.dll` ve `OVRPlugin.dll`.
+10. Son adım için 2 dosyaya ihtiyacınız var: `openvr_api.dll` ve `OVRPlugin.dll`.
     - `openvr_api.dll` dosyasını, SteamVR kuruluysa (buraya kadar geldiyseniz kurulu olmalı) şu yoldan bulabilirsiniz:
       `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\bin\win64`
     - `OVRPlugin.dll` dosyasını başka bir kaynaktan temin edin.
     - Her iki dosyayı da şu klasöre yapıştırın:
       `C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero\SubnauticaZero_Data\Plugins\x86_64`
-12. VR başlığınızı takıp SteamVR'ı açın, oyunu başlatın ve arkanıza yaslanın.
+11. VR başlığınızı takıp SteamVR'ı açın, oyunu başlatın ve arkanıza yaslanın.
 
 ## Testlerin Çalıştırılması
 
