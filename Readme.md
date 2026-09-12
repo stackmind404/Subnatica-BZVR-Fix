@@ -39,13 +39,12 @@ These instructions cover the steps needed to run or develop this project on your
 
    <img width="890" height="170" alt="image" src="https://github.com/user-attachments/assets/a958037b-d57c-4fbb-bff5-693b50147aee" />
 
-10. For the final step, you'll need 2 files: `openvr_api.dll` and `OVRPlugin.dll`.
-    - You can find `openvr_api.dll` at the following path, provided SteamVR is installed (it should be, if you've made it this far):
-      `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\bin\win64`
-    -- **Obtain `OVRPlugin.dll`:** Check your computer first (usually in the Oculus/Meta Quest Link install folder) — if you can't find it, you can get it from the [official Meta Horizon Developers page](https://developers.meta.com/horizon/downloads/package/unity-integration/).
-    - Paste both files into the following folder:
-      `C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero\SubnauticaZero_Data\Plugins\x86_64`
-11. Put on your VR headset, open SteamVR, launch the game, and sit back.
+10. You'll need `openvr_api.dll` for the next step. You can find it at the following path, provided SteamVR is installed (it should be, if you've made it this far):
+    `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\bin\win64`
+11. You'll also need `OVRPlugin.dll`. Check your computer first (usually in the Oculus/Meta Quest Link install folder) — if you can't find it, you can get it from the [official Meta Horizon Developers page](https://developers.meta.com/horizon/downloads/package/unity-integration/).
+12. Paste both files into the following folder:
+    `C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero\SubnauticaZero_Data\Plugins\x86_64`
+13. Put on your VR headset, open SteamVR, launch the game, and sit back.
 
 
 ## Deployment
