@@ -42,7 +42,7 @@ These instructions cover the steps needed to run or develop this project on your
 10. For the final step, you'll need 2 files: `openvr_api.dll` and `OVRPlugin.dll`.
     - You can find `openvr_api.dll` at the following path, provided SteamVR is installed (it should be, if you've made it this far):
       `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\bin\win64`
-    - Obtain `OVRPlugin.dll` from another source.
+    -- **Obtain `OVRPlugin.dll`:** Check your computer first (usually in the Oculus/Meta Quest Link install folder) — if you can't find it, you can get it from the [official Meta Horizon Developers page](https://developers.meta.com/horizon/downloads/package/unity-integration/).
     - Paste both files into the following folder:
       `C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero\SubnauticaZero_Data\Plugins\x86_64`
 11. Put on your VR headset, open SteamVR, launch the game, and sit back.
