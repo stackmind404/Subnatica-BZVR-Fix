@@ -67,7 +67,7 @@ If you'd like to contribute, please open an Issue or submit a Pull Request.
 
 ## Versioning
 
-This project uses the [SemVer](https://semver.org/) versioning system. You can check the repo's [Releases](releases-linki) page for available versions.
+This project uses the [SemVer](https://semver.org/) versioning system. You can check the repo's [Releases](https://github.com/stackmind404/Subnautica-BZVR-Fix/releases page for available versions.
 
 ## License
 
